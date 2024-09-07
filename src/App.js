@@ -9,12 +9,10 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 function App() {
   const scrollRef = useRef(null);
 
-  // Initialize Locomotive Scroll
   useEffect(() => {
     const scroll = new LocomotiveScroll({
       el: scrollRef.current,
       smooth: true,
-      // Optionally add inertia and mobile settings
       inertia: 0.75,
       smoothMobile: true,
     });
