@@ -25,8 +25,8 @@ const Navbar = () => {
             placeholder="Search" 
           />
         </div>
-        <a href="#" className="text-gray-600 hover:text-purple-600 font-medium">Account</a>
-        <a href="#" className="text-gray-600 hover:text-purple-600 font-medium">Settings</a>
+        <a href="#" className="text-gray-600 hover:text-purple-600 font-medium flex gap-3 items-center"><span><img src={Account}/></span>Account</a>
+        <a href="#" className="text-gray-600 hover:text-purple-600 font-medium flex gap-3 items-center"><span><img src={Setting} alt="" srcset="" /></span>Settings</a>
       </div>
     </nav>
   );
